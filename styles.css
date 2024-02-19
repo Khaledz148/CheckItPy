@@ -52,6 +52,9 @@
   }
   
   #new-task-btn {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
     background-color: var(--primary-color);
     color: var(--text-color);
     border: 1px solid var(--secondary-color);
