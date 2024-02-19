@@ -1,0 +1,148 @@
+/* Root class for colors */
+.theme {
+    --background-color: #E0C097;
+    --primary-color: #B85C38;
+    --secondary-color: #5C3D2E;
+    --text-color: #2D2424;
+  }
+  
+  /* General styles */
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1 {
+    color: var(--text-color);
+  }
+  
+  /* Task styles */
+  .task {
+    background-color: var(--primary-color);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px var(--text-color);
+  }
+  
+  .task label {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .task input {
+    margin-right: 0.5rem;
+  }
+  
+  /* Line-through class for completed tasks */
+  .line-through {
+    text-decoration: line-through;
+    color: var(--text-color);
+  }
+  
+  /* Input and button styles */
+  #new-task-content {
+    border: 1px solid var(--text-color);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  #new-task-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  /* Additional button styles using the secondary color */
+  #new-task-btn:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--text-color);
+  }
+  
+  body.container {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .max-w-xs {
+    max-width: 20rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .tracking-tight {
+    letter-spacing: -0.01562em;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .mr-3 {
+    margin-right: 0.75rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .new-task-content {
+    margin-bottom: 1rem;
+  }
+  
+  #list-tasks-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
